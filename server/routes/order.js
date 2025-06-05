@@ -2,7 +2,7 @@ var uuid = require('uuid');
 
 module.exports = function(app,API_URL){
     const BTC_ORDER_API_URL = `${API_URL}/bitcoin`;
-    var orderId = "";
+    var orderId = "idddddd";
     var order = null;
 
     app.post(BTC_ORDER_API_URL, (req, res)=>{
